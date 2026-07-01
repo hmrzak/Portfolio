@@ -630,3 +630,26 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+/* Jobs List Styling */
+.jobs-list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.job-item {
+    font-size: 14px;
+    color: var(--text-muted);
+    padding: 10px 14px;
+    background: rgba(255, 255, 255, 0.01);
+    border-left: 3px solid var(--secondary-color);
+    border-radius: 0 8px 8px 0;
+    transition: var(--transition-smooth);
+}
+
+.job-item:hover {
+    background: rgba(255, 255, 255, 0.03);
+    border-left-color: var(--primary-color);
+}

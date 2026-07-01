@@ -10,8 +10,15 @@
     "title": "Connect'In v2 - Enterprise Social Network",
     "category": "Web Development",
     "tags": ["Java", "Spring Boot", "React", "MySQL", "API REST"],
-    "description": "Réseau social d'entreprise complet. V1 développée en PHP/JS, puis entièrement refactorisée en V2 en Java/Spring Boot et React. Intègre un système d'authentification, de publication de posts et de gestion des profils collaborateurs.",
+    "description": "Version moderne du réseau social d'entreprise Connect'In. Architecture découplée intégrant un backend Spring Boot sécurisé avec API REST et un frontend React interactif, connecté à une base MySQL.",
     "github": "https://github.com/hmrzak/connect_in_v2"
+  },
+  {
+    "title": "Connect'In v1 - Collaborative Portal",
+    "category": "Web Development",
+    "tags": ["PHP", "JavaScript", "HTML5/CSS3", "MySQL", "Git"],
+    "description": "Première version du portail collaboratif d'entreprise Connect'In. Développé en architecture MVC native en PHP avec base de données relationnelle et interfaces enrichies en JS/CSS.",
+    "github": "https://github.com/hmrzak/connect_in"
   },
   {
     "title": "LearnSphere - LMS Platform",
@@ -33,6 +40,20 @@
     "tags": ["Docker Compose", "Python", "Node.js", ".NET", "Postgres"],
     "description": "Orchestration d'une application de vote multicouche avec Docker Compose, impliquant des technologies variées (Python/Flask, Node.js, .NET, Redis, Postgres) avec gestion réseau isolée.",
     "github": "https://github.com/hmrzak/popeye"
+  },
+  {
+    "title": "Figma Integration - Responsive Slicing",
+    "category": "Web Development",
+    "tags": ["HTML5", "CSS3", "JavaScript", "Figma", "Sass"],
+    "description": "Intégration pixel-perfect d'une maquette graphique Figma complexe. Développement 100% responsive, mobile-first et optimisé pour le référencement et la performance de rendu.",
+    "github": "https://github.com/hmrzak/integration-figma"
+  },
+  {
+    "title": "Application Générateur de CV",
+    "category": "Web Development",
+    "tags": ["PHP", "HTML5/CSS3", "JavaScript", "FPDF", "Git"],
+    "description": "Développement d'un générateur de CV en PHP avec formulaires dynamiques interactifs permettant de générer et d'exporter un CV propre en format PDF à la volée.",
+    "github": "https://github.com/hmrzak/generateur-de-cv"
   },
   {
     "title": "OverTheWire Wargames - Security Labs",
