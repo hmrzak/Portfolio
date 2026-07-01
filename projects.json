@@ -3,28 +3,42 @@
     "title": "Persona - AI News Aggregator",
     "category": "AI & Automation",
     "tags": ["n8n", "Google Gemini", "JavaScript", "GDPR", "Node.js"],
-    "description": "Agrégateur d'actualités autonome et conversationnel. Intègre un chatbot intelligent pour gérer les profils et préférences utilisateurs, un traitement automatique de flux RSS temps réel via Regex, et un système de planification automatisé (Cron) envoyant des newsletters HTML personnalisées tout en respectant le RGPD (droit à l'oubli complet).",
-    "github": "https://github.com/hmarzak/persona"
+    "description": "Agrégateur d'actualités autonome et conversationnel. Intègre un chatbot intelligent pour gérer les préférences utilisateurs, un traitement automatique de flux RSS temps réel via Regex, et un système de planification automatisé (Cron) envoyant des newsletters HTML personnalisées tout en respectant le RGPD (droit à l'oubli complet).",
+    "github": "https://github.com/hmrzak/persona"
   },
   {
-    "title": "Corelab - Collaborative Workspace",
+    "title": "Connect'In v2 - Enterprise Social Network",
     "category": "Web Development",
-    "tags": ["React", "Express", "Node.js", "MongoDB", "WebSockets"],
-    "description": "Plateforme web collaborative complète pour les équipes de développement. Inclut un chat en temps réel, un tableau de gestion de tâches de type Kanban, un éditeur de code partagé et des visioconférences intégrées pour optimiser le travail collaboratif.",
-    "github": "https://github.com/hmarzak/corelab"
+    "tags": ["Java", "Spring Boot", "React", "MySQL", "API REST"],
+    "description": "Réseau social d'entreprise complet. V1 développée en PHP/JS, puis entièrement refactorisée en V2 en Java/Spring Boot et React. Intègre un système d'authentification, de publication de posts et de gestion des profils collaborateurs.",
+    "github": "https://github.com/hmrzak/connect_in_v2"
   },
   {
     "title": "LearnSphere - LMS Platform",
     "category": "Web Development",
-    "tags": ["PHP", "Symfony", "MySQL", "Twig", "Bootstrap"],
-    "description": "Système de Gestion de l'Apprentissage (LMS) destiné aux formateurs et étudiants. Permet de créer des quiz interactifs, de suivre la progression individuelle des apprenants, de partager des ressources multimédias et de délivrer des certificats de réussite.",
-    "github": "https://github.com/hmarzak/learnsphere"
+    "tags": ["PHP", "WordPress", "JavaScript", "ACF", "SQL"],
+    "description": "Plateforme d'e-learning complète sur WordPress incluant des templates sur mesure et un plugin de quiz interactif codé en JavaScript et PHP. Gestion intuitive des cours et des résultats pour les formateurs.",
+    "github": "https://github.com/hmrzak/learnsphere"
   },
   {
-    "title": "JeuxvideOps - DevOps Automation Pipeline",
+    "title": "JeuxvideOps - DevOps Automation",
     "category": "DevOps & Systems",
-    "tags": ["Docker", "GitLab CI/CD", "NGINX", "Shell script", "Prometheus"],
-    "description": "Mise en place d'une infrastructure d'hébergement hautement disponible pour des serveurs de jeux vidéo. Intègre un pipeline CI/CD automatisé, la conteneurisation des services, un load balancer NGINX et un système complet de monitoring avec Prometheus et Grafana.",
-    "github": "https://github.com/hmarzak/jeuxvideops"
+    "tags": ["Docker", "NGINX", "Prometheus", "Grafana", "CI/CD"],
+    "description": "Infrastructure d'hébergement hautement disponible pour serveurs de jeux vidéo. Intègre un pipeline CI/CD automatisé, la conteneurisation des services sous Docker, un reverse proxy NGINX et du monitoring temps réel.",
+    "github": "https://github.com/hmrzak/jeuxvideops"
+  },
+  {
+    "title": "Popeye - DevOps Orchestration",
+    "category": "DevOps & Systems",
+    "tags": ["Docker Compose", "Python", "Node.js", ".NET", "Postgres"],
+    "description": "Orchestration d'une application de vote multicouche avec Docker Compose, impliquant des technologies variées (Python/Flask, Node.js, .NET, Redis, Postgres) avec gestion réseau isolée.",
+    "github": "https://github.com/hmrzak/popeye"
+  },
+  {
+    "title": "OverTheWire Wargames - Security Labs",
+    "category": "Cybersecurity & SecOps",
+    "tags": ["Linux", "Bash", "SecOps", "OSINT", "Cryptographie"],
+    "description": "Résolution complète des wargames d'OverTheWire (Bandit, Leviathan, etc.), renforçant des compétences pratiques en sécurité des systèmes Linux, scripting Bash, exploitation de failles web et techniques d'investigation OSINT.",
+    "github": "https://github.com/hmrzak/Portfolio"
   }
 ]
