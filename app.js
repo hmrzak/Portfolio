@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Load projects
     async function loadProjects() {
         try {
-            const response = await fetch("projects.json");
+            const response = await fetch("projects.json?t=" + Date.now());
             projectsData = await response.json();
             renderProjects(projectsData);
         } catch (e) {
