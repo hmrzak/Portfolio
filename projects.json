@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Persona - AI News Aggregator",
+    "category": "AI & Automation",
+    "tags": ["n8n", "Google Gemini", "JavaScript", "GDPR", "Node.js"],
+    "description": "Agrégateur d'actualités autonome et conversationnel. Intègre un chatbot intelligent pour gérer les profils et préférences utilisateurs, un traitement automatique de flux RSS temps réel via Regex, et un système de planification automatisé (Cron) envoyant des newsletters HTML personnalisées tout en respectant le RGPD (droit à l'oubli complet).",
+    "github": "https://github.com/hmarzak/persona"
+  },
+  {
+    "title": "Corelab - Collaborative Workspace",
+    "category": "Web Development",
+    "tags": ["React", "Express", "Node.js", "MongoDB", "WebSockets"],
+    "description": "Plateforme web collaborative complète pour les équipes de développement. Inclut un chat en temps réel, un tableau de gestion de tâches de type Kanban, un éditeur de code partagé et des visioconférences intégrées pour optimiser le travail collaboratif.",
+    "github": "https://github.com/hmarzak/corelab"
+  },
+  {
+    "title": "LearnSphere - LMS Platform",
+    "category": "Web Development",
+    "tags": ["PHP", "Symfony", "MySQL", "Twig", "Bootstrap"],
+    "description": "Système de Gestion de l'Apprentissage (LMS) destiné aux formateurs et étudiants. Permet de créer des quiz interactifs, de suivre la progression individuelle des apprenants, de partager des ressources multimédias et de délivrer des certificats de réussite.",
+    "github": "https://github.com/hmarzak/learnsphere"
+  },
+  {
+    "title": "JeuxvideOps - DevOps Automation Pipeline",
+    "category": "DevOps & Systems",
+    "tags": ["Docker", "GitLab CI/CD", "NGINX", "Shell script", "Prometheus"],
+    "description": "Mise en place d'une infrastructure d'hébergement hautement disponible pour des serveurs de jeux vidéo. Intègre un pipeline CI/CD automatisé, la conteneurisation des services, un load balancer NGINX et un système complet de monitoring avec Prometheus et Grafana.",
+    "github": "https://github.com/hmarzak/jeuxvideops"
+  }
+]
