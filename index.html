@@ -53,16 +53,17 @@
                         <span class="dot red"></span>
                         <span class="dot yellow"></span>
                         <span class="dot green"></span>
-                        <span class="file-name">persona.js</span>
+                        <span class="file-name">bandit@overthewire:~ (ssh)</span>
                     </div>
-                    <pre class="code-editor"><code><span class="keyword">const</span> <span class="variable">agent</span> = <span class="keyword">new</span> <span class="class">AIAgent</span>({
-  model: <span class="string">"gemini-3.5"</span>,
-  tools: [<span class="variable">fs</span>, <span class="variable">http</span>, <span class="variable">rss</span>],
-  features: [<span class="string">"custom_veilles"</span>]
-});
-
-<span class="comment">// Démarrage de l'orchestration</span>
-<span class="keyword">await</span> <span class="variable">agent</span>.<span class="method">run</span>();</code></pre>
+                    <pre class="code-editor"><code><span class="comment"># Connexion au wargame OverTheWire</span>
+<span class="variable">$</span> ssh bandit1@bandit.labs.overthewire.org -p 2220
+<span class="comment">bandit1@bandit:~$</span> ls -la
+total 24
+-rw-r-----  1 bandit2 bandit1   33 Jul  1  2026 -
+<span class="comment">bandit1@bandit:~$</span> cat ./-
+<span class="string">NH2SX564ce897df1259abdeff9a7c36a</span>
+<span class="comment">bandit1@bandit:~$</span> exit
+Connection closed.</code></pre>
                 </div>
             </div>
         </section>
